@@ -17,7 +17,7 @@ func ExampleConfig_StockIntraday() {
 	// 1min
 }
 
-func ExampleConfig_StockIntraday2() {
+func ExampleIntraDayAPI_Newest() {
 	const DemoKey = "demo"
 	config := New(DemoKey)
 
